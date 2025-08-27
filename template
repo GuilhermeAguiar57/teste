@@ -1,0 +1,139 @@
+<template>
+  <section class="w-full flex justify-center">
+    <div
+      class="flex flex-col items-center w-full md:w-full lg:w-full xl:w-[113.5625rem] 2xl:w-[113.5625rem] rounded-[0.375rem]
+             se:px-[0.9375rem] md:px-[2rem] lg:px-[3rem] xl:px-[3.4375rem]
+             pt-[4.875rem] pb-[10.625rem] gap-[2.3125rem]"
+    >
+      <div class="flex flex-col items-center w-full gap-[2.625rem]">
+        <div class="flex flex-col items-start gap-[0.625rem] w-full md:w-auto md:min-w-[16.385rem]">
+          <img
+            :src="brand"
+            alt="Eu Quero Consultar"
+            class="object-contain h-[5.625rem] s8:h-[7.5rem] lg:h-[8rem] xl:h-[10.86rem] w-auto"
+            decoding="async"
+          />
+        </div>
+
+        <div class="flex flex-col items-center text-center md:text-center lg:text-left gap-[0.625rem] w-full md:max-w-[67.6875rem]">
+          <h2
+            class="font-[700] text-[#3D3D3D] w-full
+                   se:text-[1.75rem] se:leading-[2.125rem]
+                   su:text-[3rem]   su:leading-[3.75rem]
+                   md:text-[clamp(2.5rem,3.5vw,4rem)] md:leading-[clamp(3rem,4.2vw,4.875rem)]
+                   lg:text-[clamp(3.5rem,4.5vw,5rem)] lg:leading-[clamp(4.25rem,5.5vw,6.125rem)]"
+          >
+            Ainda ficou com dúvidas?
+          </h2>
+          <p
+            class="font-[500] text-[#606060] w-full md:max-w-[43.6875rem]
+                   se:text-[0.875rem] se:leading-[1.0625rem]
+                   su:text-[1.25rem]  su:leading-[1.625rem]
+                   md:text-[clamp(1.25rem,2vw,1.5rem)] md:leading-[clamp(1.5rem,2.4vw,1.875rem)]
+                   lg:text-[clamp(1.5rem,2.2vw,1.875rem)] lg:leading-[clamp(1.875rem,2.6vw,2.3125rem)]"
+          >
+            Contate um de nossos canais de atendimento
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="w-full
+               se:flex se:flex-col
+               md:flex md:flex-col md:items-center
+               lg:grid lg:grid-cols-12 lg:items-center lg:items-stretch
+               justify-center
+               px-0 md:px-[2rem] lg:px-[3rem] xl:px-[3.4375rem]
+               gap-y-[1rem]
+               md:gap-y-[clamp(1.5rem,2.5vw,2.5rem)]
+               lg:gap-y-[clamp(1rem,2.2vw,2rem)]
+               lg:gap-x-[clamp(1.25rem,4vw,3.5rem)]"
+      >
+        <div class="w-full md:w-auto lg:col-span-12 xl:col-span-5 min-w-0 flex justify-center md:items-center lg:items-stretch">
+          <div
+            class="relative
+                   se:w-[18.75rem] se:h-[21.875rem]
+                   xs:w-[21.25rem] xs:h-[24.375rem]
+                   su:w-[24rem]    su:h-[27.5rem]
+                   md:w-[clamp(28rem,35vw,32rem)] md:h-[clamp(32rem,38vw,36rem)]
+                   lg:w-[clamp(30rem,38vw,35rem)] lg:h-[clamp(34rem,40vw,40rem)]
+                   xl:w-[clamp(26rem,32vw,38.5625rem)] xl:h-[clamp(30rem,36vw,43.75rem)]"
+          >
+            <img
+              :src="banner"
+              alt="Atendimento Eu Quero Consultar"
+              class="absolute bottom-0 left-1/2 -translate-x-1/2
+                     w-auto max-w-full
+                     h-[90%] md:h-full
+                     object-contain"
+              decoding="async"
+            />
+          </div>
+        </div>
+
+        <div
+          class="w-full md:w-full lg:col-span-12 xl:col-span-7 min-w-0
+                 flex flex-col items-center md:items-center lg:items-start
+                 gap-[clamp(1.25rem,3vw,3.25rem)]
+                 se:max-w-[18.75rem] md:max-w-[40rem] lg:max-w-none"
+        >
+          <div class="w-full min-w-0 flex flex-col items-center md:items-center lg:items-start gap-[1.75rem]">
+            <h3
+              class="font-[700] text-[#3D3D3D] text-center md:text-center lg:text-left w-full
+                     se:text-[1.25rem] se:leading-[1.5625rem]
+                     md:text-[clamp(1.75rem,2.5vw,2rem)] md:leading-[clamp(2.125rem,3vw,2.5rem)]
+                     lg:text-[clamp(1.5rem,2.2vw,2.375rem)] lg:leading-[clamp(1.875rem,2.6vw,2.875rem)]"
+            >
+              Horário de atendimento
+            </h3>
+            <p
+              class="font-[500] text-[#606060] text-center md:text-center lg:text-left w-full
+                     se:text-[0.9375rem] se:leading-[1.25rem]
+                     md:text-[clamp(1.125rem,2vw,1.5rem)] md:leading-[clamp(1.375rem,2.4vw,1.875rem)]
+                     lg:text-[clamp(1rem,1.9vw,2.0625rem)] lg:leading-[clamp(1.375rem,2.4vw,2.5rem)]"
+            >
+              De segunda a sexta-feira de 09h às 18h. Exceto feriados.
+            </p>
+          </div>
+
+          <div class="w-full flex flex-col gap-[clamp(1rem,2vw,1.5rem)]">
+            <a
+              href="mailto:suporte@euqueroconsultar.com.br"
+              aria-label="Enviar e-mail para suporte@euqueroconsultar.com.br"
+              class="flex flex-col items-center justify-center
+                     gap-[clamp(0.75rem,1.6vw,1rem)]
+                     bg-white rounded-[0.75rem]
+                     shadow-[0_0_0.4375rem_rgba(0,0,0,0.12)]
+                     px-[1.25rem]
+                     w-full md:w-full md:max-w-[44.1875rem]
+                     h-[clamp(8.75rem,10vw,11.4375rem)]
+                     py-[clamp(1rem,2vw,2.1875rem)]
+                     focus-visible:outline-none focus-visible:ring-2
+                     focus-visible:ring-[#2DD4BF]
+                     focus-visible:ring-offset-2 focus-visible:ring-offset-white transition"
+            >
+              <img
+                :src="emailIcon"
+                alt="Email"
+                class="object-contain w-auto
+                       se:h-[3.375rem]
+                       md:h-[clamp(3rem,4.5vw,4.5rem)]
+                       lg:h-[clamp(2.5rem,4.8vw,5.625rem)]
+                       xl:h-[clamp(3.25rem,6vw,10.86rem)]"
+                decoding="async"
+              />
+              <span
+                class="font-[600] text-[#606060] text-center
+                       se:text-[1rem] se:leading-[1.25rem]
+                       md:text-[clamp(1.125rem,1.6vw,1.25rem)] md:leading-[clamp(1.375rem,1.9vw,1.5rem)]
+                       lg:text-[clamp(1rem,1.4vw,1.375rem)] lg:leading-[clamp(1.25rem,1.8vw,1.75rem)]"
+              >
+                Email
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</template>
