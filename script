@@ -1,0 +1,5 @@
+<script setup lang="ts">
+import brand from "@/assets/doubts/EQC-logo-client.png"
+import banner from "@/assets/doubts/EQC-doubtbanner.png"
+import emailIcon from "@/assets/doubts/EQC-email.png"
+</script>
